@@ -1,0 +1,10 @@
+config:
+  outputs: |
+    [OUTPUT]
+        Name            es
+        Match           *
+        Host            elasticsearch
+        Port            9200
+        Retry_Limit False
+        Suppress_Type_Name On
+        Replace_Dots On
