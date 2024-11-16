@@ -1,0 +1,26 @@
+# Node modules
+node_modules
+npm-debug.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build output
+dist
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# IDE
+.vscode
