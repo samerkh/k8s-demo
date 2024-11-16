@@ -14,7 +14,7 @@ import { UserModule } from './user/user.module';
       port: parseInt(process.env.DB_PORT, 10) || 5432,
       username: process.env.POSTGRES_USER || 'postgres',
       password: process.env.POSTGRES_PASSWORD || 'postgres',
-      database: process.env.POSTGRES_DB || 'myapp',
+      database: process.env.POSTGRES_DB || 'demoApp',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true, // Disable in production
     }),
