@@ -9,3 +9,4 @@ This is a simple app with k8s configuration. This repo is created for the tutori
 - Dockerfiles
 - docker-compose
 - Kubernetes config files
+- EFK Stack (elasticsearch fluentbit kibana)
